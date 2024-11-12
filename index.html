@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="titolo">
+        <h1>Recensione</h1>
+    </div> <br>
+    <div class="divRecensione">
+        <form action="./script.php" method="post">
+            <label for="data">Data: </label>
+            <input name="data" type="date" required> <br>
+            <label for="voto">Voto:</label>
+            <input name="voto" min="1" max="5" type="number" required> <br> <br>
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+</body>
+
+</html>

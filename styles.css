@@ -1,0 +1,31 @@
+.titolo {
+    background-color: rgb(134, 134, 202);
+    font-size: x-large;
+    padding: 1%;
+}
+
+.divRecensione {
+    background-color: rgb(206, 206, 206);
+    padding: 2%;
+    width: 75%;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input,
+button,
+label {
+    font-size: larger;
+}
+
+table,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
